@@ -1,19 +1,27 @@
 {
   "name": "touch-count-down-bomb-server",
+  "description": "Client-Terminal management server for TouchCountDownBombServer",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Masayuki IZUMI",
+    "email": "masayuki@izumin.info",
+    "url": "http://izumin.info"
   },
+  "bugs": {
+    "url": "https://github.com/t-kiz/touch-count-down-bomb-server/issues"
+  },
+  "homepage": "https://github.com/t-kiz/touch-count-down-bomb-server#readme",
+  "license": {
+    "type": "MIT",
+    "url": "http://izumin.mit-license.org/2015"
+  },
+  "main": "index.js",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/t-kiz/touch-count-down-bomb-server.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/t-kiz/touch-count-down-bomb-server/issues"
-  },
-  "homepage": "https://github.com/t-kiz/touch-count-down-bomb-server#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
