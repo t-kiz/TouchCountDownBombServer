@@ -22,8 +22,10 @@ export default function(event, context) {
       } else {
         mqttClient.on("error", (error) => context.fail(error));
         mqttClient.publish(
-          getTopicFromRequestParams(requestParams), requestParams.number, {},
-          (packget) => context.succeed(null)
+          getTopicFromRequestParams(requestParams),
+          getValueFromRequestParams(requestParams),
+          {},
+          (packget) => context.succeed(`${getTopicFromRequestParams(requestParams)}=${requestParams.number}`)
         );
       }
     }
@@ -39,5 +41,5 @@ function getValueFromRequestParams(requestParams) {
 }
 
 function getTopicFromRequestParams(requestParams) {
-  return `${requestParams.terminalId}:${requestParams.clientId}`;
+  return `/${requestParams.terminalId}/${requestParams.clientId}`;
 }
