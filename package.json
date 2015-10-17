@@ -26,6 +26,8 @@
     "url": "git+https://github.com/t-kiz/touch-count-down-bomb-server.git"
   },
   "scripts": {
+    "build": "find ./actions/* -type d -maxdepth 0 | xargs -I {} babel {}/src --out-dir {}/lib",
+    "deploy": "fluct deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
