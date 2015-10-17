@@ -10,6 +10,9 @@
   "bugs": {
     "url": "https://github.com/t-kiz/touch-count-down-bomb-server/issues"
   },
+  "dependencies": {
+    "mqtt": "^1.4.3"
+  },
   "devDependencies": {
     "babel": "^5.8.23",
     "fluct": "^0.3.4"
