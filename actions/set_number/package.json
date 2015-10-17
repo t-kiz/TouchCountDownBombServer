@@ -2,9 +2,9 @@
   "name": "set_number",
   "private": true,
   "fluct": {
-    "contentType": "text/html",
-    "httpMethod": "GET",
-    "path": "/dummy",
-    "statusCode": 200
+    "contentType": "application/json",
+    "httpMethod": "POST",
+    "path": "/numbers",
+    "statusCode": 201
   }
 }
