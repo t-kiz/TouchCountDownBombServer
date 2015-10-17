@@ -1,0 +1,19 @@
+{
+  "name": "touch-count-down-bomb-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-kiz/touch-count-down-bomb-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t-kiz/touch-count-down-bomb-server/issues"
+  },
+  "homepage": "https://github.com/t-kiz/touch-count-down-bomb-server#readme"
+}
