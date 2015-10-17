@@ -1,4 +1,4 @@
-import secrets from "./secrets";
+import * as secrets from "./secrets";
 
 export const REGION     = "ap-northeast-1";
 export const TABLE_NAME = "touch_count_down_bomb_number";
