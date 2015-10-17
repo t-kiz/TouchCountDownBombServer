@@ -17,6 +17,12 @@
     "babel": "^5.8.23",
     "fluct": "^0.3.4"
   },
+  "fluct": {
+    "accountId": "945244976046",
+    "region": "ap-northeast-1",
+    "restapiId": "9h2q28dx1j",
+    "roleName": "lambda_dynamo"
+  },
   "homepage": "https://github.com/t-kiz/touch-count-down-bomb-server#readme",
   "license": {
     "type": "MIT",
