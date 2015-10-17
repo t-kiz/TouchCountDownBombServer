@@ -11,8 +11,10 @@ export default function(event, context) {
   dynamoDB.putItem(
     {
       TableName: TABLE_NAME,
-      id: { S: getKeyFromRequestParams(requestParams) },
-      name: { S: getValueFromRequestParams(requestParams) }
+      Item: {
+        id: { S: getKeyFromRequestParams(requestParams) },
+        name: { S: getValueFromRequestParams(requestParams) }
+      }
     },
     (error, data) => {
       if (error) {
