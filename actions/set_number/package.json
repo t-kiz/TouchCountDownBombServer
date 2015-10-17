@@ -1,0 +1,10 @@
+{
+  "name": "set_number",
+  "private": true,
+  "fluct": {
+    "contentType": "text/html",
+    "httpMethod": "GET",
+    "path": "/dummy",
+    "statusCode": 200
+  }
+}
