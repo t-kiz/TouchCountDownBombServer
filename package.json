@@ -10,6 +10,10 @@
   "bugs": {
     "url": "https://github.com/t-kiz/touch-count-down-bomb-server/issues"
   },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "fluct": "^0.3.4"
+  },
   "homepage": "https://github.com/t-kiz/touch-count-down-bomb-server#readme",
   "license": {
     "type": "MIT",
